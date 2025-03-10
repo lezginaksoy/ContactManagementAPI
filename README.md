@@ -28,9 +28,6 @@ Creates the first migration, which defines the initial database schema.
   dotnet ef migrations add InitialCreate  
   dotnet ef database update initialcreate
 
-📌 github
- git clone https://github.com/YOUR_USERNAME/contact-management-api.git
-
 
 📌 Run Tests (Run all tests)
   dotnet test
