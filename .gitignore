@@ -1,0 +1,25 @@
+﻿
+---
+
+## **📌 .gitignore File**
+Create a `.gitignore` file and add:
+
+```gitignore
+# Ignore .NET build files
+bin/
+obj/
+
+# Ignore user-specific files
+.vscode/
+*.user
+*.suo
+*.rsuser
+*.vs
+
+# Ignore logs and secrets
+*.log
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignore database migrations
+Migrations/

@@ -1,0 +1,46 @@
+﻿### 📌 Base URL
+@baseUrl = https://localhost:7269/api
+
+
+GET {{baseUrl}}/contacts?pageNumber=1&pageSize=10
+Accept: application/json
+
+### Get Contact by ID
+GET {{baseUrl}}/contacts/1
+Accept: application/json
+
+###  Create New Contact
+POST {{baseUrl}}/contacts
+Content-Type: application/json
+
+{
+    "name": "lazgin Aksoy",
+    "email": "lazginaksoy@gmail.com",
+    "phoneNumber": "+447908694098"
+}
+
+###  Update Contact
+PUT {{baseUrl}}/contacts/1
+Content-Type: application/json
+
+{
+    "name": "lazgin Aksoy Updated",
+    "email": "lazginaksoy@yahoo.com",
+    "phoneNumber": "+447908694098"
+}
+
+###  Delete Contact
+DELETE {{baseUrl}}/contacts/1
+Accept: application/json
+
+###  Assign Contact to Fund
+POST {{baseUrl}}/funds/1/contacts/1
+Accept: application/json
+
+###  Remove Contact from Fund
+DELETE {{baseUrl}}/funds/1/contacts/1
+Accept: application/json
+
+###  List Contacts for a Fund
+GET {{baseUrl}}/funds/1/contacts
+Accept: application/json
