@@ -12,7 +12,7 @@ A simple .NET 8 Web API for managing contacts and assigning them to investment f
 ---
 
 ## **Getting Started**
-### **1️⃣ Prerequisites**
+### ** Prerequisites**
 - [.NET 8 SDK](https://dotnet.microsoft.com/download)
 - [PostgreSQL](https://www.postgresql.org/download/)
 - [Entity Framework Core CLI](https://learn.microsoft.com/en-us/ef/core/cli/dotnet)
